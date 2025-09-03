@@ -62,3 +62,5 @@ pub use crate::sasl::GssapiSaslOptions;
 #[cfg(any(feature = "sasl-digest-md5", feature = "sasl-gssapi"))]
 #[cfg_attr(docsrs, doc(cfg(any(feature = "sasl", feature = "sasl-gssapi", feature = "sasl-digest-md5"))))]
 pub use crate::sasl::SaslOptions;
+#[cfg(feature = "custom-spawner")]
+pub use asyncs::{Spawn, enter, Task};

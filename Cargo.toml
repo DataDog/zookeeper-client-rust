@@ -30,7 +30,7 @@ thiserror = "1.0.30"
 strum = { version = "0.23", features = ["derive"] }
 num_enum = "0.5.6"
 ignore-result = "0.2.0"
-compact_str = "0.4"
+compact_str = "0.9"
 const_format = "0.2.22"
 static_assertions = "1.1.0"
 hashbrown = "0.12.0"
